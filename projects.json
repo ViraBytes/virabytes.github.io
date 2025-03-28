@@ -1,0 +1,107 @@
+[
+  {
+    "title": "Phantom C2",
+    "description": "Undetectable command-and-control framework with built-in EDR evasion (Process Hollowing, API Unhooking). Tested against CrowdStrike/SentinelOne.",
+    "image": "[C2 Dashboard]",
+    "tags": ["redteam", "c2", "evasion"],
+    "links": [
+      {"text": "View Project", "url": "projects/phantom-c2.html"}
+    ]
+  },
+  {
+    "title": "Neural Network Resolver",
+    "description": "AI-powered AntiAim resolver for CS:GO HvH using neural networks to predict opponent movements. Built for GameSense with LUA integration.",
+    "image": "[AI Brain Icon]",
+    "tags": ["gamesense", "machine-learning", "ai", "csgo"],
+    "links": [
+      {"text": "View Project", "url": "projects/NeuralNetworkResolver.html"}
+    ],
+    "metadata": {
+      "status": "abandoned",
+      "year": 2024,
+      "technology": ["LUA", "Python", "TensorFlow"],
+      "icon": "fa-brain"
+    }
+  },
+  {
+    "title": "ADBlood 2.0",
+    "description": "Active Directory attack automation toolkit with novel Kerberoasting/DCSync techniques. Reduced attack time from hours to minutes.",
+    "image": "[AD Attack Map]",
+    "tags": ["activedirectory", "pentesting"],
+    "links": [
+      {"text": "View Project", "url": "phantomc2.html"}
+    ]
+  },
+  {
+    "title": "JWT Toolkit",
+    "description": "Automated JWT exploitation suite (alg=none, kid injection, RSA-to-HMAC). Found 50+ vulnerabilities in bug bounties.",
+    "image": "[JWT Attack]",
+    "tags": ["web", "api"],
+    "links": [
+      {"text": "View Project", "url": "phantomc2.html"}
+    ]
+  },
+  {
+    "title": "CloudKnife",
+    "description": "Multi-cloud pentesting tool (AWS/Azure/GCP) with 20+ automated attack modules for IAM/S3 misconfigurations.",
+    "image": "[Cloud Architecture]",
+    "tags": ["cloud", "aws", "azure"],
+    "links": [
+      {"text": "View Project", "url": "phantomc2.html"}
+    ]
+  },
+  {
+    "title": "APKrypt",
+    "description": "Android reverse engineering framework with Frida/Xposed automation. Bypassed 10+ banking app protections.",
+    "image": "[Mobile App]",
+    "tags": ["android", "reverse-engineering"],
+    "links": [
+      {"text": "View Project", "url": "phantomc2.html"}
+    ]
+  },
+  {
+    "title": "RSArmory",
+    "description": "Educational toolkit demonstrating RSA vulnerabilities (Hastad's broadcast attack, Wiener's theorem).",
+    "image": "[Crypto Formulas]",
+    "tags": ["cryptography", "education"],
+    "links": [
+      {"text": "View Project", "url": "phantomc2.html"}
+    ]
+  },
+  {
+    "title": "UnpackME",
+    "description": "Automated malware unpacker handling VMProtect/Themida with YARA rule generator.",
+    "image": "[Malware Analysis]",
+    "tags": ["reverse-engineering", "malware"],
+    "links": [
+      {"text": "View Project", "url": "phantomc2.html"}
+    ]
+  },
+  {
+    "title": "RF Catcher",
+    "description": "SDR-based tool for analyzing wireless protocols (Garage doors, RFID, LoRaWAN).",
+    "image": "[SDR Hardware]",
+    "tags": ["hardware", "rf"],
+    "links": [
+      {"text": "View Project", "url": "phantomc2.html"}
+    ]
+  },
+  {
+    "title": "BugBot",
+    "description": "Bug bounty automation framework (subdomain enum, endpoint fuzzing). Earned $250k+ in bounties.",
+    "image": "[Automation Script]",
+    "tags": ["automation", "web"],
+    "links": [
+      {"text": "View Project", "url": "phantomc2.html"}
+    ]
+  },
+  {
+    "title": "PLCrack",
+    "description": "Modbus TCP fuzzer that discovered vulnerabilities in industrial PLCs (CVE-2023-XXXXX).",
+    "image": "[Industrial Control]",
+    "tags": ["ics", "scada"],
+    "links": [
+      {"text": "View Project", "url": "phantomc2.html"}
+    ]
+  }
+]
