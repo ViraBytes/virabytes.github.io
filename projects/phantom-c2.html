@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phantom C2 | Vira</title>
+    <meta name="description" content="Undetectable command-and-control framework with built-in EDR evasion">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="cursor-trail"></div>
+    
+    <header class="glass-header">
+        <div class="container">
+            <nav>
+                <div class="logo">root<span>@vira:~#</span></div>
+                <div class="nav-links">
+                    <a href="../index.html">Home</a>
+                    <a href="../index.html#projects">Projects</a>
+                </div>
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="project-hero">
+        <div class="container">
+            <div class="project-header">
+                <div class="project-icon glass-card">
+                    🕵️‍♂️
+                </div>
+                <div>
+                    <h1>Phantom C2</h1>
+                    <p class="hero-subtext">Undetectable command-and-control framework with built-in EDR evasion</p>
+                    <div class="project-meta">
+                        <span class="project-meta-item">Red Team</span>
+                        <span class="project-meta-item">C2 Framework</span>
+                        <span class="project-meta-item">2025</span>
+                        <span class="project-meta-item">Python</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="project-content">
+        <div class="container">
+            <div class="project-section">
+                <h2>Project Overview</h2>
+                <p>Phantom C2 is an advanced command-and-control framework designed to bypass modern EDR solutions using cutting-edge evasion techniques. Developed during real-world red team operations, it incorporates proprietary methods to maintain stealth while providing full control over compromised systems.</p>
+                <p>The framework has been tested against industry-leading security products including CrowdStrike Falcon and SentinelOne, demonstrating consistent evasion capabilities even in monitored enterprise environments.</p>
+                
+                <div class="screenshot-grid">
+                    <div class="screenshot-item glass-card">
+                        <img src="https://via.placeholder.com/600x400/161b22/58a6ff?text=C2+Dashboard" alt="Phantom C2 Dashboard" loading="lazy">
+                    </div>
+                    <div class="screenshot-item glass-card">
+                        <img src="https://via.placeholder.com/600x400/0d1117/58a6ff?text=Agent+Status" alt="Agent Status View" loading="lazy">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-section">
+                <h2>Technical Highlights</h2>
+                <div class="project-features">
+                    <div class="feature-card glass-card">
+                        <h3>Process Hollowing</h3>
+                        <p>Advanced code injection technique that executes payloads within legitimate process memory space, bypassing signature-based detection.</p>
+                    </div>
+                    <div class="feature-card glass-card">
+                        <h3>API Unhooking</h3>
+                        <p>Dynamic resolution of clean API copies from ntdll.dll to evade user-space hooks placed by security products.</p>
+                    </div>
+                    <div class="feature-card glass-card">
+                        <h3>Sleep Obfuscation</h3>
+                        <p>Custom sleep encryption that hides beaconing patterns from network traffic analysis tools.</p>
+                    </div>
+                    <div class="feature-card glass-card">
+                        <h3>Modular Architecture</h3>
+                        <p>Plugin-based system allowing operators to extend functionality without modifying core components.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-section">
+                <h2>Technology Stack</h2>
+                <div class="tech-stack">
+                    <span class="tag">Python 3.10</span>
+                    <span class="tag">Asyncio</span>
+                    <span class="tag">WebSockets</span>
+                    <span class="tag">AES-256</span>
+                    <span class="tag">Rust (for critical components)</span>
+                </div>
+            </div>
+            
+            <div class="project-section">
+                <h2>Key Challenges</h2>
+                <ul class="feature-list">
+                    <li><strong>EDR Evasion:</strong> Developed custom techniques to bypass memory scanning and behavioral detection</li>
+                    <li><strong>Network Stealth:</strong> Implemented domain fronting and encrypted C2 channels</li>
+                    <li><strong>Payload Generation:</strong> Created polymorphic payload engine to avoid static signatures</li>
+                    <li><strong>Operational Security:</strong> Designed automatic cleanup procedures to reduce forensic artifacts</li>
+                </ul>
+            </div>
+            
+            <div class="project-section">
+                <h2>Project Resources</h2>
+                <div class="project-links">
+                    <a href="#" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                        GitHub Repository
+                    </a>
+                    <a href="#" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                        Technical Whitepaper
+                    </a>
+                    <a href="#" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+                            <polygon points="23 7 16 12 23 17 23 7"></polygon>
+                            <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+                        </svg>
+                        Demo Video
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="glass-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">root<span>@vira:~#</span></div>
+                <div class="social-links">
+                    <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    </a>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                </div>
+            </div>
+            <p class="copyright">© <span id="year"></span> Vira. All systems secured.</p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
